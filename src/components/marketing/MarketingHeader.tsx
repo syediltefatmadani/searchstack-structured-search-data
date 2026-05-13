@@ -2,8 +2,8 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Logo } from "./Logo";
-import { ThemeToggle } from "./ThemeToggle";
+import { Logo } from "@/components/brand/Logo";
+import { ThemeToggle } from "@/components/brand/ThemeToggle";
 
 const links = [
   { to: "/features", label: "Features" },
